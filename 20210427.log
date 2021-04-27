@@ -1,0 +1,16 @@
+  282  git status
+  283  git commit -m "Adding new file"
+  284  git status
+  285  getedit first_file.txt
+  286  gedit first_file.txt
+  287  echo "this is my line" >> first_file.txt
+  288  git add first_file.txt
+  289  git commit -m "Adding line"
+  290  git push -u orign main
+  291  git push -u origin main
+  292  git remote -v
+  293  history>git/shell_class/20210427.log
+  294  pwd
+  295  cd..
+  296  cd
+  297  hi
