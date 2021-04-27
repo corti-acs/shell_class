@@ -1,0 +1,168 @@
+sudo apt autoremove
+print
+echo $SHELL
+printenv
+echo 'my home directory is $HOME'
+echo "my home directory is $HOME"
+echo "date"
+echo 'date'
+echo  `date`
+ echo "wrold\\
+is mine"
+echo "world" \\
+"is mine"\\
+"and not your"
+echo $shell
+echo $SHELL
+echo "hola"
+echo "hola soy $user"
+echo "hols soy $user'\
+\
+echo \
+dd"
+history
+echo "Hello \"world\""
+echo "this is \n a new line"
+echo "there is a tab \t here"
+echo this is echo of echo
+echo " this is"; echo "of echo"
+print "this is \n a new line"
+cat /etc/os-release
+pwd
+ls
+cd books
+cd ..
+cd music
+cd..
+cd ..
+pwd
+ls
+ cd dsc
+pwd
+ls
+cd Data/challenge
+cd data/challenge
+pwd
+cd -
+prompt
+cd home/dsc
+ls
+pwd
+cd ?
+pwd
+cd ..
+pwd
+ls - lrt
+pwd
+cd music
+pwd
+ls
+ls -lrt
+ll
+cd Data/shell
+cd data/shell
+pwd
+cat ddd
+cat Text_example.txt 
+cat Text_example.txt
+cat -n Text_example.txt Text_example.txt Text_example.txt
+cd /home/dsc
+pwd
+cd data
+ls
+cd shell
+ls
+cat -n Text_example.txt
+pwd
+ls
+cat ../../pp.txt
+cd ../../
+cd -
+cd ../../
+pwd
+cd -
+cd ../../;cat pp.txt
+cat - n
+pwd
+cat -n
+echo \$PWD
+pwd
+cd data
+pwd
+cd
+cd /
+ll
+cd home
+cd home/dsc
+cd -
+cd
+pwd
+ll
+ls -lrt
+ls -a
+pwd
+man ls
+ls -lSr
+mkdir cortinas
+ls -lsrt
+touch corti/acsfile.txt
+touch cortinas/acsfile.txt
+cd cortinas
+lll
+ll
+ls - lsrt
+mkdir one
+mkdir this and that
+mkdir -p one/two/three
+cd one
+cd ..
+ls one
+ls two
+cd ..
+ll
+ls
+cd cortinas
+ls
+cd..
+cd ..
+cat pp.txt
+cd cortinas
+ls -lsrt
+cd ..
+ls -lrt
+rm -rf cortinas
+ls
+pwd
+mkdir first_dir
+ls
+cd first_dir
+touch text_file.txt
+ls 
+mkdir -p sub1/sub2/sub3
+cp text_file.txt ./sub1
+ls
+cd ..
+ll
+cd first_dir
+ls -lsrt
+cd sub1
+ls -ls
+ll
+cd ..
+ll
+cd..
+cd ..
+ll
+cd first_dir
+ll
+pwd
+cd sub1
+pwd
+ls
+pwd
+cd sub2
+ll
+ cd
+history > 20210422.log
+ls -lrt
+cat .history > 20210422.log
