@@ -1,0 +1,16 @@
+  400  echo 'head -n 5 ~/data/shell/Finn.txt | wc -w' > 002.sh
+  401  basch 002.sh
+  402  bash 002.sh
+  403  bash 002.sh > 002.out
+  404  git status
+  405  git add .
+  406  git commit -m "2 exercise"
+  407  git push -u origin corti-acs
+  408  git status
+  409  git push -u origin corti-acs
+  410  git commit -m "2 exercise"
+  411  git push -u origin corti-acs
+  412  cd ..
+  413  cd Shell_Pandemic
+  414  git push -u origin Alberto_C
+  415   history 0

@@ -1,0 +1,455 @@
+    1  sudo apt autoremove
+    2  print
+    3  echo $SHELL
+    4  printenv
+    5  echo 'my home directory is $HOME'
+    6  echo "my home directory is $HOME"
+    7  echo "date"
+    8  echo 'date'
+    9  echo  `date`
+   10   echo "wrold\\nis mine"
+   11  echo "world" \\n"is mine"\\n"and not your"
+   12  echo $shell
+   13  echo $SHELL
+   14  echo "hola"
+   15  echo "hola soy $user"
+   16  echo "hols soy $user'\n\necho \ndd"
+   17  history
+   18  echo "Hello \"world\""
+   19  echo "this is \n a new line"
+   20  echo "there is a tab \t here"
+   21  echo this is echo of echo
+   22  echo " this is"; echo "of echo"
+   23  print "this is \n a new line"
+   24  cat /etc/os-release
+   25  pwd
+   26  ls
+   27  cd books
+   28  cd ..
+   29  cd music
+   30  cd..
+   31  cd ..
+   32  pwd
+   33  ls
+   34   cd dsc
+   35  pwd
+   36  ls
+   37  cd Data/challenge
+   38  cd data/challenge
+   39  pwd
+   40  cd -
+   41  prompt
+   42  cd home/dsc
+   43  ls
+   44  pwd
+   45  cd ?
+   46  pwd
+   47  cd ..
+   48  pwd
+   49  ls - lrt
+   50  pwd
+   51  cd music
+   52  pwd
+   53  ls
+   54  ls -lrt
+   55  ll
+   56  cd Data/shell
+   57  cd data/shell
+   58  pwd
+   59  cat ddd
+   60  cat Text_example.txt 
+   61  cat Text_example.txt
+   62  cat -n Text_example.txt Text_example.txt Text_example.txt
+   63  cd /home/dsc
+   64  pwd
+   65  cd data
+   66  ls
+   67  cd shell
+   68  ls
+   69  cat -n Text_example.txt
+   70  pwd
+   71  ls
+   72  cat ../../pp.txt
+   73  cd ../../
+   74  cd -
+   75  cd ../../
+   76  pwd
+   77  cd -
+   78  cd ../../;cat pp.txt
+   79  cat - n
+   80  pwd
+   81  cat -n
+   82  echo \$PWD
+   83  pwd
+   84  cd data
+   85  pwd
+   86  cd
+   87  cd /
+   88  ll
+   89  cd home
+   90  cd home/dsc
+   91  cd -
+   92  cd
+   93  pwd
+   94  ll
+   95  ls -lrt
+   96  ls -a
+   97  pwd
+   98  man ls
+   99  ls -lSr
+  100  mkdir cortinas
+  101  ls -lsrt
+  102  touch corti/acsfile.txt
+  103  touch cortinas/acsfile.txt
+  104  cd cortinas
+  105  lll
+  106  ll
+  107  ls - lsrt
+  108  mkdir one
+  109  mkdir this and that
+  110  mkdir -p one/two/three
+  111  cd one
+  112  cd ..
+  113  ls one
+  114  ls two
+  115  cd ..
+  116  ll
+  117  ls
+  118  cd cortinas
+  119  ls
+  120  cd..
+  121  cd ..
+  122  cat pp.txt
+  123  cd cortinas
+  124  ls -lsrt
+  125  cd ..
+  126  ls -lrt
+  127  rm -rf cortinas
+  128  ls
+  129  pwd
+  130  mkdir first_dir
+  131  ls
+  132  cd first_dir
+  133  touch text_file.txt
+  134  ls 
+  135  mkdir -p sub1/sub2/sub3
+  136  cp text_file.txt ./sub1
+  137  ls
+  138  cd ..
+  139  ll
+  140  cd first_dir
+  141  ls -lsrt
+  142  cd sub1
+  143  ls -ls
+  144  ll
+  145  cd ..
+  146  ll
+  147  cd..
+  148  cd ..
+  149  ll
+  150  cd first_dir
+  151  ll
+  152  pwd
+  153  cd sub1
+  154  pwd
+  155  ls
+  156  pwd
+  157  cd sub2
+  158  ll
+  159   cd
+  160  history > 20210422.log
+  161  ls -lrt
+  162  cat .history > 20210422.log
+  163  ls -lsrt
+  164  cat 20210422.log
+  165  ll
+  166  exit
+  167  pwd
+  168  whoami
+  169  pwd
+  170  echo this is backslash\\ 
+  171  echo "hello\"world"ª
+  172  echo "hello \ "world\""
+  173  echo this is ; echo of echo
+  174  ls
+  175  cd data
+  176  ls
+  177  cd ..
+  178  cd
+  179  pwd
+  180  echo $PWD
+  181  echo \$PWD
+  182  pwd
+  183  cd ../
+  184  cd dsc
+  185  pwd
+  186  cd -
+  187  cd
+  188  pwd
+  189  ls
+  190  ls -1
+  191  ls -s
+  192  ls -s1
+  193  ls
+  194  ls -1
+  195   ls lsr
+  196  pwd
+  197  ls -a
+  198  ls .
+  199  pwd
+  200  ls -l
+  201  ls -la
+  202  ls -l .zshrc
+  203  pwd
+  204  ls -la
+  205  ls -l
+  206  ls -t
+  207  ls -lt
+  208  ls -lr
+  209  ls - lr
+  210  ls -lr
+  211  ls -ls
+  212  ls -lt
+  213  rm -i first_dir
+  214  rm first_dir
+  215  pwd
+  216  touch ../first_dir/text_file.txt
+  217  ls
+  218  touch first_dir/text_file.txt
+  219  pwd
+  220  ls -lt
+  221  cd first_dir
+  222  ls
+  223  cd
+  224  pwd
+  225  cd first_dir
+  226  mkdir sub1/sub2/text_file
+  227  mkdir sub1
+  228  mkdir sub2
+  229  mkdir text_file
+  230  ls
+  231  cd..
+  232  cd ..
+  233  pwd
+  234  ls -lr
+  235  cp first_dir/text_file.txt first_dir/sub1
+  236  cd first_dir
+  237  cd sub1
+  238  ls
+  239  cd ..
+  240  ls
+  241  cd ..
+  242  mv first_dir/sub1/text_file.txt dir/sub2/text_file.txt.2
+  243  mv first_dir/sub1/text_file.txt first_dir/sub2/text_file.txt.2
+  244  cp first_dir/sub1 first_dir/sub3
+  245  cp -r first dir/sub1 first_dir/sub3
+  246  pwd
+  247  cd first_dir
+  248  mkdir sub3
+  249  cd..
+  250  cd ..
+  251  cp -r first_dir/sub1 first_dir/sub3
+  252  mv first_dir/sub2/text_file.txt.2 first_dir/sub2/text_file.txt.backup
+  253  mv first_dir/sub2/text_file.txt.backup first_dir/.text_file.txt.backup
+  254  cd first_date
+  255  ls
+  256  ls -a
+  257  pwd
+  258  cd first_dir
+  259  ls -a
+  260  rm first_dir/sub2
+  261  rm sub2
+  262  cd ..
+  263  rm -r first_dir/sub2
+  264  exit
+  265  pwd
+  266  cd
+  267  git config --global user.name "Alberto C"
+  268  git config --global user.email "acs.corti@gmail.com"
+  269  cat .gitconfig
+  270  mkdir git
+  271  cd git
+  272  ls -lrt
+  273  git clone https://github.com/corti-acs/shell_class.git
+  274  ll
+  275  cd shell_class
+  276  cat README.md
+  277  clear
+  278  ll
+  279  touch first_file.txt
+  280  git add first_file.txt
+  281  git diff
+  282  git status
+  283  git commit -m "Adding new file"
+  284  git status
+  285  getedit first_file.txt
+  286  gedit first_file.txt
+  287  echo "this is my line" >> first_file.txt
+  288  git add first_file.txt
+  289  git commit -m "Adding line"
+  290  git push -u orign main
+  291  git push -u origin main
+  292  git remote -v
+  293  history>git/shell_class/20210427.log
+  294  pwd
+  295  cd..
+  296  cd
+  297  hi
+  298  history>git/shell_class/20210427.log
+  299  cd 
+  300   ls -lrt
+  301  cp home/dsc /20210422.log home/dsc/git/shell_clas/
+  302  cp home/dsc /20210422.log home/dsc/git/shell_class/
+  303  cp /home/dsc/20210422.log /home/dsc/git/shell_class/
+  304   cd git/shell_class
+  305  l -lrt
+  306  git add 20210427.log
+  307  git commit -r
+  308  git commit -m "Class log shell 27 April"
+  309  git push -u origin main
+  310  git add 20210422.log
+  311  git commit -m "Class log shell 22 April"
+  312  git push -u origin main
+  313  less 20210422.log
+  314  cd ..
+  315  pwd
+  316  cd data
+  317  ls -lsrt
+  318  ll
+  319  cat ~/20210422.log
+  320  cd
+  321  exit
+  322  ls -lrt
+  323  wc -c 20210422.log
+  324  wc 20210422.log
+  325  ~
+  326  pwd
+  327  cd
+  328  ll
+  329  cat ~/.history |grep "git"
+  330  man
+  331  man grep
+  332  history 0
+  333  history 0|grep "git"
+  334  cat 20210422.log
+  335  history 0
+  336  history 0|wc -l
+  337  echo 'history 0 |wc -l' > 001.sh
+  338  bash 001.sh > 001.out
+  339  bash 001.sh
+  340  history 0
+  341  history 0 wc -l
+  342  history 0| wc -l
+  343  echo 'history 0|wc -l' > 001.sh
+  344  bash 001.sh
+  345  ll
+  346  cd data
+  347  ll
+  348  cd opentraveldata
+  349  ll
+  350  cd ..
+  351  cd shell
+  352  ll
+  353  cd ..
+  354  cd git
+  355  cd ..
+  356  cd git
+  357  clone https://github.com/jquibla/Shell_Pandemic.git
+  358  git clone https://github.com/jquibla/Sheel_Pandemic.git
+  359  git clone https://github.com/jquibla/Shell_Pandemic.git
+  360  ls
+  361   cd Shell_Pandemic
+  362  git pull
+  363  git status
+  364  cat README.md
+  365  git status
+  366  git checkout -b Alberto_C
+  367  git status
+  368  cat README.md
+  369  touch 001.sh
+  370  ls
+  371   ~/data/opentraveldata
+  372  ls -lrt ~/data/opentraveldata
+  373  ls -srt ~/data/opentraveldata
+  374  ls -s  ~/data/opentraveldata
+  375  man ls
+  376  ls -S ~/data/opentraveldata
+  377  ls -Sl ~/data/opentraveldata
+  378  ls -SL ~/data/opentraveldata | tail -n
+  379  ls -SL ~/data/opentraveldata | tail -n 1
+  380  echo 'ls -SL ~/data/opentraveldata | tail -n 1' >>001.sh
+  381  bash 001.sh
+  382  echo 'ls -SL ~/data/opentraveldata |head -n 2 |  tail -n 1' >>001.sh
+  383  bash 001.sh
+  384  echo 'ls -Sl  ~/data/opentraveldata |head -n 2 |  tail -n 1' >>001.sh
+  385  ls -Sl  ~/data/opentraveldata |head - n 2 |tail -n 1' >>001.sh\n\n
+  386  ls -Sl ~/data/opentraveldata | head -n 2 | tail -n 1
+  387  echo 'ls -Sl ~/data/opentraveldata | head -n 2 | tail -n 1' >> 001.sh
+  388  basch 001.sh
+  389  bash 001.sh
+  390  git add .
+  391  gti commit - "new file acs"
+  392  git commit -m "new file acs"
+  393  git push -u origin Alberto_C
+  394  bash 001.sh > 001.out
+  395  git add .
+  396  git commit -m "output file"
+  397  git push -u origin Alberto_C
+  398  wc -w ~/data/shell/Finn.txt
+  399  head -n 5 ~/data/shell/Finn.txt | wc -w
+  400  echo 'head -n 5 ~/data/shell/Finn.txt | wc -w' > 002.sh
+  401  basch 002.sh
+  402  bash 002.sh
+  403  bash 002.sh > 002.out
+  404  git status
+  405  git add .
+  406  git commit -m "2 exercise"
+  407  git push -u origin corti-acs
+  408  git status
+  409  git push -u origin corti-acs
+  410  git commit -m "2 exercise"
+  411  git push -u origin corti-acs
+  412  cd ..
+  413  cd Shell_Pandemic
+  414  git push -u origin Alberto_C
+  415   history 0
+  416  history > 20210428.log
+  417  ll
+  418  ~
+  419  cd ..
+  420  ll
+  421  cp ~/20210428.log cd
+  422  cp  ~/git&shell_Pandemic/20210428.log cd
+  423  cp ~git/Shell_Pandemic/20210428.log cd
+  424  cd
+  425  cd git
+  426  cd ..
+  427  ll
+  428  cp git/Shell_Pandemic/20210428.log /20210428.log
+  429  cp git/Shell_Pandemic/20210428.log ~20210428.log
+  430  cp ./git/Shell_Pandemic/20210428.log ~/20210428.log
+  431  ll
+  432  cp ./git/shell_class/20210427.log  ~/20210427.log
+  433  ll
+  434  exit
+  435  ls -lrt
+  436  clean
+  437  clear
+  438  python
+  439  which python
+  440  python kk.py
+  441  python
+  442  ipython
+  443  clear
+  444  ~
+  445  pwd
+  446  mkdir Intro_Python
+  447  ll
+  448  cd Intro_Python
+  449  wget "kschool.myopenlms.net/pluginfile.php/7432/mod_resource/content/1/1_Jupyter.ipynb"
+  450  ll
+  451  wget "kschool.myopenlms.net/pluginfile.php/7433/mod_resource/content/1/2_Python.ipynb"
+  452  ls -lrt
+  453  ll
+  454  jupyter notebook
+  455  cd ..
